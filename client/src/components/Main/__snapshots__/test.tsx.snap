@@ -1,0 +1,27 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Main /> should render the heading 1`] = `
+<main
+  class="styles__Wrapper-n3tl0o-0 hYdnlp"
+>
+  <div
+    class="styles__Logo-n3tl0o-1 gnvPzH"
+  >
+    <img
+      alt="Iceberg NextJS Boilerplate text and Iceberg Icon"
+      src="/img/logo-iceberg.svg"
+      width="200"
+    />
+  </div>
+  <h1
+    class="styles__Title-n3tl0o-2 iqdTfJ"
+  >
+    NextJS boilerplate
+  </h1>
+  <p
+    class="styles__Description-n3tl0o-3 frQXuG"
+  >
+    A simple project starter to work with TypeScript, React, NextJS and Styled Components
+  </p>
+</main>
+`;

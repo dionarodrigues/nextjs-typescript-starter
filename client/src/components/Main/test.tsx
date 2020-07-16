@@ -7,9 +7,14 @@ describe('<Main />', () => {
     const { container } = render(<Main />)
 
     expect(
-      screen.getByRole('heading', { name: /nextjs ecommerce/i })
+      screen.getByRole('heading', { name: /nextjs boilerplate/i })
     ).toBeInTheDocument()
 
     expect(container.firstChild).toMatchSnapshot()
+  })
+  it('Should render colors correctly', () => {
+    const { container } = render(<Main />)
+
+    expect(container.firstChild).toHaveStyle({ color: '#3a3a3f' })
   })
 })
