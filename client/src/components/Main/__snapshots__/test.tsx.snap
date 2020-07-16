@@ -1,11 +1,49 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`<Main /> should render the heading 1`] = `
+.c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  padding: 5rem;
+  text-align: center;
+  color: #3a3a3f;
+}
+
+.c1 {
+  margin-bottom: 3rem;
+}
+
+.c2 {
+  font-weight: normal;
+  font-size: 4rem;
+  margin-bottom: 1rem;
+}
+
+.c3 {
+  font-weight: normal;
+  font-size: 2rem;
+}
+
 <main
-  class="styles__Wrapper-n3tl0o-0 hYdnlp"
+  class="c0"
 >
   <div
-    class="styles__Logo-n3tl0o-1 gnvPzH"
+    class="c1"
   >
     <img
       alt="Iceberg NextJS Boilerplate text and Iceberg Icon"
@@ -14,12 +52,12 @@ exports[`<Main /> should render the heading 1`] = `
     />
   </div>
   <h1
-    class="styles__Title-n3tl0o-2 iqdTfJ"
+    class="c2"
   >
     NextJS boilerplate
   </h1>
   <p
-    class="styles__Description-n3tl0o-3 frQXuG"
+    class="c3"
   >
     A simple project starter to work with TypeScript, React, NextJS and Styled Components
   </p>
