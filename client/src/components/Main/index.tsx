@@ -1,6 +1,9 @@
 import * as S from './styles'
 
-const Main = () => (
+const Main = ({
+  title = 'NextJS boilerplate',
+  description = 'A simple project starter to work with TypeScript, React, NextJS and Styled Components'
+}) => (
   <S.Wrapper>
     <S.Logo>
       <img
@@ -9,11 +12,8 @@ const Main = () => (
         alt="Iceberg NextJS Boilerplate text and Iceberg Icon"
       />
     </S.Logo>
-    <S.Title>NextJS boilerplate</S.Title>
-    <S.Description>
-      A simple project starter to work with TypeScript, React, NextJS and Styled
-      Components
-    </S.Description>
+    <S.Title>{title}</S.Title>
+    <S.Description>{description}</S.Description>
   </S.Wrapper>
 )
 
