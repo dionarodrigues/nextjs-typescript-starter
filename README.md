@@ -10,7 +10,7 @@ __👌  The follwing is setup out of the box:__
 - Styles via [Styled Components](https://styled-components.com/)
 - Consistent coding styles using [EditorConfig](https://editorconfig.org/)
 - Linting via [eslint](https://eslint.org/), [typescript-eslint](https://github.com/typescript-eslint/typescript-eslint) and [prettier](https://prettier.io/)
-- Testing via [Jest](https://jestjs.io/) and [React Testing Library](https://testing-library.com/docs/react-testing-library/intro) 
+- Testing via [Jest](https://jestjs.io/) and [React Testing Library](https://testing-library.com/docs/react-testing-library/intro)
 - Preventing bad `git commit` with [Husky](https://github.com/typicode/husky) and [lint-staged](https://github.com/okonet/lint-staged)
 
 
@@ -18,15 +18,22 @@ __👌  The follwing is setup out of the box:__
 
 Assuming [Node.js](https://nodejs.org/en/) is installed, run the following commands to install the project:
 
+
+**With yarn create next-app**:
+```
+$ yarn create next-app -e https://github.com/diogorodrigues/nextjs-typescript-starter
+```
+or
+
+**With git clone**:
 ```
 $ git clone https://github.com/diogorodrigues/nextjs-typescript-starter.git your-project-name
 
 cd your-project-name
 
 rm -rf .git
-cd client
 yarn install
-yarn start
+yarn dev
 ```
 
 ## Commands
