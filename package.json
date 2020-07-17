@@ -1,5 +1,5 @@
 {
-  "name": "client",
+  "name": "nextjs-iceberg-starter",
   "version": "0.1.0",
   "private": true,
   "scripts": {
