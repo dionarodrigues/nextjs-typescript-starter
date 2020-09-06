@@ -21,7 +21,7 @@ Assuming [Node.js](https://nodejs.org/en/) is installed, run the following comma
 
 **With yarn create next-app**:
 ```
-$ yarn create next-app -e https://github.com/diogorodrigues/nextjs-typescript-starter
+$ yarn create next-app -e https://github.com/diogorodrigues/nextjs-typescript-starter project-name
 ```
 or
 
