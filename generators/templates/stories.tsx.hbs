@@ -1,0 +1,14 @@
+import { withKnobs, text } from '@storybook/addon-knobs'
+import {{pascalCase name}} from './'
+
+export default {
+  title: '{{pascalCase name}}',
+  component: {{pascalCase name}},
+  decorators: [withKnobs]
+}
+
+export const Default = () => (
+  <{{pascalCase name}}
+    title={text('Title', '{{pascalCase name}} Title')}
+  />
+)
