@@ -1,14 +1,9 @@
-import { withKnobs, text } from '@storybook/addon-knobs'
-import {{pascalCase name}} from './'
+import { Story, Meta } from '@storybook/react/types-6-0'
+import {{pascalCase name}} from '.'
 
 export default {
   title: '{{pascalCase name}}',
-  component: {{pascalCase name}},
-  decorators: [withKnobs]
-}
+  component: {{pascalCase name}}
+} as Meta
 
-export const Default = () => (
-  <{{pascalCase name}}
-    title={text('Title', '{{pascalCase name}} Title')}
-  />
-)
+export const Default: Story = () => <{{pascalCase name}} />
