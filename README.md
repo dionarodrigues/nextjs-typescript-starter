@@ -12,6 +12,7 @@ __👌  The follwing is setup out of the box:__
 - Linting via [eslint](https://eslint.org/), [typescript-eslint](https://github.com/typescript-eslint/typescript-eslint) and [prettier](https://prettier.io/)
 - Testing via [Jest](https://jestjs.io/) and [React Testing Library](https://testing-library.com/docs/react-testing-library/intro)
 - Preventing bad `git commit` with [Husky](https://github.com/typicode/husky) and [lint-staged](https://github.com/okonet/lint-staged)
+- Consistency code generator with [Plop](https://plopjs.com/)
 
 
 ## 🚀 Getting Started
