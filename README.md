@@ -14,6 +14,8 @@ __👌  The follwing is setup out of the box:__
 - Preventing bad `git commit` with [Husky](https://github.com/typicode/husky) and [lint-staged](https://github.com/okonet/lint-staged)
 - Consistency code generator with [Plop](https://plopjs.com/)
 
+__Check all the [detailed functionalities in this article](https://www.diogorodrigues.dev/blog/modern-starter-for-nextjs-applications-written-in-typescript-and-more).__
+
 
 ## 🚀 Getting Started
 
